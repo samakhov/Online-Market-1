@@ -53,7 +53,7 @@ public class SplashScreen extends Activity {
         	
         	return this.image_list[this.index];
         }
-        
     }
- 
+
+    
 }
