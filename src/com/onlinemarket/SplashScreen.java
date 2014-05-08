@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.widget.ImageView;
  
-public class SplashScreen2 extends Activity {
+public class SplashScreen extends Activity {
  
     private static int SPLASH_TIME_OUT = 5000;
     private static int LOADER_CHANGE_TIME = 500;
@@ -24,7 +24,7 @@ public class SplashScreen2 extends Activity {
 		}
 		
 		public void onFinish() {
-			startActivity(new Intent(SplashScreen2.this, MainActivity.class));
+			startActivity(new Intent(SplashScreen.this, MainActivity.class));
 			finish();
 		}
 		}.start();
