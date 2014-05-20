@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#f6f3bd" >
+    android:background="#ffffff" >
 
     <ImageView
         android:id="@+id/logo"
@@ -10,14 +10,15 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/textView1"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/logo" />
-    
-    
+        android:src="@drawable/logo1" />
+
     <ImageView
         android:id="@+id/loading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true" 
-       	android:src="@drawable/loader_1"/>
+        android:layout_alignBottom="@+id/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/loader_1" />
     
 </RelativeLayout>
